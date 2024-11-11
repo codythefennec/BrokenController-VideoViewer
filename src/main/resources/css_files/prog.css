@@ -1,0 +1,11 @@
+@font-face {
+    font-family Raleway;
+    src url("../font_files/Raleway-VariableFont_wght.ttf");
+}
+
+.button{
+    -fx-font-size: 25px;
+    -fx-font-family: "Raleway";
+    -fx-text-fill: BLACK;
+    -fx-background-radius: 50px;
+}

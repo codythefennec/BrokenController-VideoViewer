@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c738cd8f-9883-4566-bc89-4a90b8fd822f" name="Changes" comment="Base Java Source Files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/AppModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/AppScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/AppUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/FontManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codythefennec/MaintenanceScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css_files/prog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/font_files/Raleway-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/user_data/saved_apps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codythefennec/AppScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codythefennec/AppScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codythefennec/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codythefennec/MainApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +67,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "codythefennec"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;codythefennec&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/codythefennec/BrokenController-VideoViewer",
-    "accountId": "1d24156f-af4a-48a7-8a1b-73212830b9da"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/codythefennec/BrokenController-VideoViewer&quot;,
+    &quot;accountId&quot;: &quot;436315c9-66b5-4193-b5a0-6ec51757acd2&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mLjrv83kOxOjgFhx2aqun1Xt40" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -86,16 +90,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Gradle.BrokenController-VideoViewer [:Launcher.main()].executor": "Run",
-    "Gradle.BrokenController-VideoViewer [:Main.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.BrokenController-VideoViewer [:Launcher.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BrokenController-VideoViewer [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BrokenController-VideoViewer [:codythefennec.Launcher.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cody/IdeaProjects/BrokenController-VideoViewer/src/main/resources/font_files&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="codythefennec" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/font_files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/css_files" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Launcher">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codythefennec.Launcher" />
